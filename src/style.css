@@ -68,6 +68,11 @@ footer {
     padding: 30px 0;
 }
 
+.project-img {
+    max-width: fit-content;
+    height: auto;
+}
+
 .footer-text {
     color: var(--feature-colour);
     font-family: var(--feature-font);
