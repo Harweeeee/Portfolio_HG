@@ -51,7 +51,7 @@
     text-decoration: underline;
 }
 
-.preview-txt {
+.preview-text {
     font-family: var(--feature-font);
     color: var(--text-color-main);
     font-size: 35px;
@@ -89,4 +89,33 @@ footer {
 .email:hover {
     color: #f3c98a;
     text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .name {
+        font-size: 50px;
+    }
+
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .center-media {
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    .preview-text {
+        font-size: 20px;
+    }
+
+    .footer-text {
+        font-size: 20px;
+    }
+
+    .email {
+        font-size: 15px;
+    }
 }
