@@ -2,4 +2,39 @@
     --main-font: 'Karla';
     --secondary-font: 'Lusitana';
     --feature-font: 'Rock Salt';
+    --main-colour: #f2f2f2;
+    --secondary-colour: #181515;
+    --feature-colour: #f7bb60;
+    --text-color-main: #302e2e;
+}
+
+.menu-bar {
+    font-family: var(--main-font);
+}
+
+.bg-custom {
+    background-color: var(--main-colour);
+}
+
+.bg-black {
+    background-color: var(--secondary-colour);
+}
+
+.intro-container {
+    width: fit-content;
+}
+
+.intro-text {
+    color: var(--main-colour);
+    font-family: var(--secondary-font);
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+}
+
+h5 {
+    color: var(--feature-colour);
+    font-family: var(--main-font);
 }
