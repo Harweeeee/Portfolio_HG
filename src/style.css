@@ -29,9 +29,13 @@
     font-family: var(--secondary-font);
 }
 
+.name {
+    font-size: 70px;
+}
+
 .profile-image {
-    width: 200px;
-    height: 200px;
+    width: 226px;
+    height: 226px;
 }
 
 .learn-more-btn {
@@ -44,4 +48,15 @@
 .learn-more-btn:hover {
     color: #f3c98a;
     cursor: pointer;
+}
+
+.preview-txt {
+    font-family: var(--feature-font);
+    color: var(--text-color-main);
+    font-size: 35px;
+}
+
+.project-desc {
+    font-family: var(--main-font);
+    color: var(--text-color-main);
 }
