@@ -48,6 +48,7 @@
 .learn-more-btn:hover {
     color: #f3c98a;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .preview-txt {
@@ -59,4 +60,28 @@
 .project-desc {
     font-family: var(--main-font);
     color: var(--text-color-main);
+}
+
+footer {
+    background-color: var(--secondary-colour);
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer-text {
+    color: var(--feature-colour);
+    font-family: var(--feature-font);
+    font-size: 35px;
+}
+
+.email {
+    font-family: var(--main-font);
+    color: var(--main-colour);
+    font-style: normal;
+    text-decoration: none;
+}
+
+.email:hover {
+    color: #f3c98a;
+    text-decoration: underline;
 }
