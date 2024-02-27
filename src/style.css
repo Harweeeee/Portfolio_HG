@@ -34,7 +34,14 @@
     height: 200px;
 }
 
-h5 {
+.learn-more-btn {
     color: var(--feature-colour);
     font-family: var(--main-font);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.learn-more-btn:hover {
+    color: #f3c98a;
+    cursor: pointer;
 }
