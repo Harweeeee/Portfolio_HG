@@ -12,6 +12,11 @@
     font-family: var(--main-font);
 }
 
+.active {
+    color: var(--feature-colour) !important;
+    font-weight: bold;
+}
+
 .bg-custom {
     background-color: var(--main-colour);
 }
@@ -51,13 +56,13 @@
     text-decoration: underline;
 }
 
-.preview-text {
+.sub-text {
     font-family: var(--feature-font);
     color: var(--text-color-main);
     font-size: 35px;
 }
 
-.project-desc {
+.description-text {
     font-family: var(--main-font);
     color: var(--text-color-main);
 }
@@ -118,4 +123,20 @@ footer {
     .email {
         font-size: 15px;
     }
+}
+
+.heading {
+    text-align: center;
+    padding: 50px;
+}
+
+.profile-container {
+    margin: 50px 200px;
+}
+
+.add-picture {
+    display: block;
+    margin: 0 auto;
+    width: 330px;
+    padding-top: 20px;
 }
