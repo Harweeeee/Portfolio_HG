@@ -96,6 +96,42 @@ footer {
     text-decoration: underline;
 }
 
+.heading {
+    text-align: center;
+    padding: 50px;
+}
+
+.profile-container {
+    margin: 50px 150px;
+}
+
+.add-picture {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 20px;
+}
+
+.proj-cont {
+    padding: 20px;
+    margin: 10px 100px;
+    border-bottom: 3px solid var(--feature-colour);
+}
+
+.orange-text {
+    color: var(--feature-colour);
+}
+
+.box-height {
+    height: 300px;
+}
+
+.project-pic {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
 @media (max-width: 600px) {
     .name {
         font-size: 50px;
@@ -112,7 +148,7 @@ footer {
         margin-top: 5px;
     }
 
-    .preview-text {
+    .sub-text {
         font-size: 20px;
     }
 
@@ -123,20 +159,12 @@ footer {
     .email {
         font-size: 15px;
     }
-}
 
-.heading {
-    text-align: center;
-    padding: 50px;
-}
+    .profile-container {
+        margin: 5px !important;
+    }
 
-.profile-container {
-    margin: 50px 200px;
-}
-
-.add-picture {
-    display: block;
-    margin: 0 auto;
-    width: 330px;
-    padding-top: 20px;
+    .proj-cont {
+        margin: 10px;
+    }
 }
