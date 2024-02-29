@@ -132,6 +132,27 @@ footer {
     width: 400px;
 }
 
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-container {
+    background-color: var(--secondary-colour);
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 6px;
+    margin: 200px;
+    box-shadow: var(--feature-colour) 0px 7px 29px 0px;
+}
+
+.wrap-details {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 600px) {
     .name {
         font-size: 50px;
