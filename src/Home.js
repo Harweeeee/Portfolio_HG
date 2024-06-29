@@ -49,16 +49,12 @@ export default function Home() {
                                 Hello 👋
                             </p>
                             <p className="primaryFont">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur. Excepteur sint
-                                occaecat cupidatat non proident, sunt in culpa
-                                qui officia deserunt mollit anim id est laborum.
+                                Welcome to my portfolio! Here you'll find a
+                                showcase of my latest projects, socials, contact
+                                info, AND a back-story on how I am where I am
+                                today. It's honestly not that exciting, but
+                                alas, you are here so why not check it out? I'll
+                                include pics of my dog.
                             </p>{' '}
                             <div className="navBtnContainer">
                                 <Link
