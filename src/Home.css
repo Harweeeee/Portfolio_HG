@@ -1,0 +1,143 @@
+header {
+    height: 250px;
+}
+
+.wave-divider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave-divider svg {
+    position: relative;
+    display: block;
+    width: calc(186% + 1.3px);
+    height: 500px;
+}
+
+.wave-divider {
+    fill: #e9d0ed;
+    z-index: -999;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-weight: 300;
+}
+
+.profileImage {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.profileContent {
+    background: none;
+    text-align: center;
+    margin: 20px 0 70px 0;
+}
+
+.profileBlurb {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.profileGreeting {
+    font-size: 25px;
+}
+
+.navBtnContainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.navButton {
+    background-color: #f0eef1;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.languageIconHome {
+    width: 50px;
+    height: 50px;
+}
+
+.languageIconHome:hover {
+    transform: scale(2) rotate(360deg);
+    transition: 300ms;
+}
+
+footer {
+    width: 100%;
+    background-image: url(/public/assets/bgimg\ purple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px 200px;
+}
+
+.dropShadow {
+    filter: drop-shadow(0 0 10px #fefefe);
+}
+
+@media (max-width: 1000px) {
+    .profileImage {
+        width: 375px;
+        height: 375px;
+    }
+}
+
+@media (max-width: 800px) {
+    .profileImage {
+        width: 275px;
+        height: 275px;
+    }
+
+    .profileBlurb {
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 0;
+    }
+
+    .languageIconHome {
+        width: 40px;
+        height: 40px;
+    }
+
+    footer {
+        gap: 20px;
+        padding: 40px 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .profileImage {
+        width: 200px;
+        height: 200px;
+    }
+}

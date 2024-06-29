@@ -1,0 +1,35 @@
+.projectImg {
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border: solid #e9d0ed40 2px;
+    border-radius: 20px;
+}
+
+h4 {
+    margin-top: 30px;
+}
+
+.projectDisplay {
+    width: 400px;
+    margin-bottom: 80px;
+    padding: 0 20px;
+}
+
+.languagesUsed {
+    display: inline;
+    margin-right: 20px;
+}
+
+.languageIcon {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.languageIcon:hover {
+    transform: scale(3);
+    transition: 400ms;
+}

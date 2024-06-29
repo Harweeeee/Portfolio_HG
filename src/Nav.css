@@ -1,0 +1,38 @@
+.Nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 2px 10px;
+}
+
+.pageName {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.pageName:hover {
+    color: #e9d0ed;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.homeLink {
+    color: #212121;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .pageName {
+        font-size: 13px;
+    }
+
+    .socialIcon {
+        height: 23px;
+        width: 23px;
+    }
+}

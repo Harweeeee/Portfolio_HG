@@ -1,0 +1,11 @@
+.heading {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.projectDetails {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 60%;
+}
