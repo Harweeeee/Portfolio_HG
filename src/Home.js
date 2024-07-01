@@ -16,7 +16,7 @@ export default function Home() {
                         Harleigh Gallant
                     </h1>
                     <p className="primaryFont fontColour subLine">
-                        Aspiring Software Developer
+                        Junior Software Developer
                     </p>
                 </div>
                 <div class="wave-divider">
