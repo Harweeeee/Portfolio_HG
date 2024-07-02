@@ -10,6 +10,8 @@ header {
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+    fill: #e9d0ed;
+    z-index: -999;
 }
 
 .wave-divider svg {
@@ -19,11 +21,6 @@ header {
     height: 500px;
 }
 
-.wave-divider {
-    fill: #e9d0ed;
-    z-index: -999;
-}
-
 .hero {
     text-align: center;
     padding-top: 20px;
@@ -31,10 +28,13 @@ header {
 
 h1 {
     font-size: 60px;
+    margin: 5px !important;
 }
 
+.subline,
 p {
     font-weight: 300;
+    margin: 0;
 }
 
 .profileImage {
@@ -129,9 +129,23 @@ footer {
         height: 40px;
     }
 
+    .navBtnContainer {
+        margin: 15px;
+    }
+
+    .navButton {
+        width: 100px;
+        font-size: 12px;
+    }
+
     footer {
         gap: 20px;
         padding: 40px 0px;
+    }
+
+    h1 {
+        font-size: 45px;
+        margin-top: 20px !important;
     }
 }
 
@@ -139,5 +153,9 @@ footer {
     .profileImage {
         width: 200px;
         height: 200px;
+    }
+
+    .wave-divider svg {
+        height: 375px;
     }
 }

@@ -86,6 +86,19 @@ function About() {
                 src="./assets/duke.jpg"
                 alt="Duke, our rottweiler dog"
             />
+            <div className="bottomWave">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="100%"
+                    height="250"
+                    flex-shrink="0"
+                >
+                    <path
+                        d="M1440 354L0 354V37.0358C413.5 -124.534 1403.95 311.618 1440 37.0358V354Z"
+                        fill="#E9D0ED"
+                    />
+                </svg>
+            </div>
         </div>
     )
 }
