@@ -5,7 +5,7 @@ import './ProjDisplay.css'
 
 let projectDetails = [
     {
-        link: `https://wordtome.netlify.app/`,
+        link: `https://ssreact.netlify.app/`,
         thumbnail: 'Weatherapp.PNG',
         name: 'Weather Application',
         description: `Soltice Sky! This app not only spills todays weather beans but also peeks into the crystal ball to forecast the next week. Rain or shine, it's got your back with forecasts that are as reliable as your morning coffee!`,
@@ -18,7 +18,7 @@ let projectDetails = [
         ],
     },
     {
-        link: `https://app.netlify.com/sites/ssreact/overview`,
+        link: `https://wordtome.netlify.app/`,
         thumbnail: 'Dictionaryapp.PNG',
         name: 'Dictionary Application',
         description: `From 'abracadabra' to 'zygote', this dictionary app doesn't just define words, but decodes them as well!`,
